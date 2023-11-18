@@ -10,13 +10,10 @@ const Navbar = () => {
   return (
     <BootstrapNavbar bg="light" expand="lg">
       <Container>
-        {/* Logo */}
         <Link to="/" className="navbar-brand">
           <FaPizzaSlice className="me-2" />
           Desafio Mamma-mia
         </Link>
-
-        {/* Botón del Carrito */}
         <Nav className="ms-auto">
           <Link to="/cart" className="nav-link">
             <FaShoppingCart className="me-2" />
